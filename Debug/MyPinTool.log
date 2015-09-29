@@ -1,0 +1,19 @@
+﻿Compilazione avviata 9/29/2015 7:04:01 AM.
+Progetto "C:\pin\source\tools\MyPinTool\MyPinTool.vcxproj" sul nodo 2 (destinazioni: build).
+InitializeBuildStatus:
+  Creazione di "Debug\MyPinTool.unsuccessfulbuild". È stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I"..\..\..\extras\xed-ia32\include" /I..\..\..\extras\components\include /Zi /nologo /W3 /WX- /Od /Oy- /D TARGET_IA32 /D HOST_IA32 /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D _CRT_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4530 /analyze- /errorReport:prompt MyPinTool.cpp /EHs- /EHa- 
+  MyPinTool.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\pin\source\tools\MyPinTool\Debug\MyPinTool.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\ia32\lib /LIBPATH:"..\..\..\ia32\lib-ext" /LIBPATH:"..\..\..\extras\xed-ia32\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-32.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\pin\source\tools\MyPinTool\Debug\MyPinTool.pdb" /OPT:NOREF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup@12" /BASE:"0x55000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\pin\source\tools\MyPinTool\Debug\MyPinTool.lib" /MACHINE:X86 /DLL Debug\MyPinTool.obj /export:main 
+     Creazione della libreria C:\pin\source\tools\MyPinTool\Debug\MyPinTool.lib e dell'oggetto C:\pin\source\tools\MyPinTool\Debug\MyPinTool.exp in corso...
+  MyPinTool.vcxproj -> C:\pin\source\tools\MyPinTool\Debug\MyPinTool.dll
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\MyPinTool.unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\MyPinTool.lastbuildstate".
+Compilazione progetto "C:\pin\source\tools\MyPinTool\MyPinTool.vcxproj" (destinazioni: build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:01.65
